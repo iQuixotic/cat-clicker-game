@@ -1,0 +1,80 @@
+body { 
+    color: white;
+    background-color: black;
+}
+#divTop {
+    background: blue;
+    color: #ffff99;
+    text-align: center;
+}
+.container {
+    background: black;
+}
+
+img {
+    max-width: 200px;
+    max-height: 200px;
+    min-width: 200px;
+    min-height: 200px;
+}
+img:hover{
+    background-color: rgba(255, 166, 0, 0.349);
+    opacity: .4;
+}
+#goal {
+background-color: rgb(65, 69, 107);
+}
+#winLoss {
+    background: #383709;
+}
+
+button {
+    text-align: center;
+    background-color: #dddddd;
+    color: rgb(241, 40, 157);
+    padding: 20px;
+    max-width: 200px;
+    max-height: 200px;
+    min-width: 200px;
+    min-height: 200px;
+    padding: 15px;
+    margin-top: 20px;
+    font-weight: 3.0;
+    font-size: 1.9em;
+}
+button:hover {
+    background-color: rgb(255, 0, 149);
+    color: #dddddd;
+}
+#total, #current {
+    background-color: rgb(65, 69, 107);
+    font-size: 250%;
+}
+#current {
+    color: olivedrab;
+    outline: 2px solid red;
+}
+#lineAbove{
+    background-color: rgb(65, 69, 107);
+    padding: 0px;
+    border: 10px;
+    margin: 20px 50px 20px 20px;
+    text-align: center;
+}
+
+.boxy {
+    padding: 20px;
+    border: 10px;
+    margin: 20px 50px 20px 20px;
+    text-align: center;
+    vertical-align: center;
+    font-size: 2.0em;
+    text-decoration: bold;
+}
+#score {
+    padding: 50px;
+    border: 10px;
+    margin: 20px 50px 20px 20px;
+    text-align: center;
+    background-color: rgb(65, 69, 107);;
+}
