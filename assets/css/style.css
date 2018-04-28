@@ -73,6 +73,9 @@ img:hover{
     color:rgb(12, 148, 12);
 }
 #winsLosses {
-    font-size: 60px;
+    font-size: 50px;
     font-style: oblique;
+}
+.down {
+    font-size: .8em;
 }
