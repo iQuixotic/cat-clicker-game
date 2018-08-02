@@ -14,7 +14,7 @@ button {
     height: 50px;
     font-weight: 600;
     font-size: 2.4rem;
-    margin-bottom: 100px;
+    margin-bottom: 135px;
 }
 button:hover {
     background-color: rgb(255, 0, 149);
@@ -53,9 +53,9 @@ img:hover{
     border-radius: 50%;
 }
 
-.goal-and-score {
+ .goal-and-score {
     font-size: 2rem;
-}
+} 
 
 .img-row {
     padding: 4rem 4.8rem;
@@ -91,7 +91,7 @@ img:hover{
     bottom: 0;
     width: 100%;
     text-align: justify;
-    font-size: .8rem;
+    font-size: 1.5rem;
     color: white;
 }
 
@@ -143,7 +143,7 @@ img:hover{
         width: 33%;
     }
 
-    .my-card {
+    .my-card {       
         height: 15rem;
         padding: 0;
         margin: 0;
