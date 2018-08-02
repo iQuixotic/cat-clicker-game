@@ -2,10 +2,6 @@ html {
     font-size: 10px;
 }
 
-
-
-
-
 body {
     text-align: center;
 }
@@ -16,60 +12,62 @@ button {
     color: rgb(241, 40, 157);
     width: 100%;
     height: 50px;
-    font-weight: 3.0;
-    font-size: 4rem;
+    font-weight: 600;
+    font-size: 3rem;
     margin-bottom: 100px;
 }
 button:hover {
     background-color: rgb(255, 0, 149);
     color: #dddddd;
 }
+
 img {
-    width: 200px;
-    height: 200px;
+    width: 20rem;
+    height: 20rem;
     border: rgb(12, 32, 122, .3) 6px solid;
 }
+
 img:hover{
     opacity: .8;
     border: rgb(255, 0, 149, .3) 6px solid;
 }
 
-.see {
+.card-dark {
     color: rgb(0, 0, 0, 1.0);
     background-color: rgb(0, 0, 0, .5);
  }
 
- .seeb {
-     color: rgb(0, 0, 0, 1.0);
-     background-color: rgb(12, 32, 122, .5);
-     font-size: 2.5rem;
-     padding: 2rem;
-     margin: 4rem 0;
-  }
+.card-blue {
+    color: rgb(0, 0, 0, 1.0);
+    background-color: rgb(12, 32, 122, .5);
+    font-size: 2.5rem;
+    padding: 2rem;
+    margin: 4rem 0;
+}
 
-  .valClass {
-      
+.valClass {      
     color: rgb(241, 40, 157);
-      font-weight: bold;
-      font-size: 6rem;
-      position: absolute;
-      top: 25%;
-      right: 37%;
-      z-index: 500;
-  }
+    font-weight: bold;
+    font-size: 6rem;
+    position: absolute;
+    top: 25%;
+    right: 37%;
+    z-index: 500;
+    display: none;
+}
 
-  .catCoin {
-      width: 50px;
-      height: 50px;
-      border-radius: 50%;
-  }
+.catCoin {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+}
 
-  .my-card {
+.my-card {
       height: 19rem;
       width: 33.3333%;
-  }
+}
 
-  .relative {
+.relative {
     margin:5rem 0;
     width: 20%;
     position: relative;
@@ -82,6 +80,7 @@ img:hover{
     bottom: 0;
     width: 100%;
     text-align: justify;
+    font-size: 1.5rem;
     color: white;
 }
 

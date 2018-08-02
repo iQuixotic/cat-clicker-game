@@ -37,7 +37,7 @@
         <!-- this block displays the rules -->
         <div class=" row justify-content-center">
             <div class="col-md-9">
-                <div class="row seeb">
+                <div class="row card-blue">
                     <p>
                         You will be given a Target Number at the start of the game.There are 5 kitties below. By clicking a kitty, you will add a
                         specific number of points to your total score. Each time you win or lose, the numbers that the cats
@@ -55,15 +55,15 @@
         <div class="row goal-and-score">
 
             <!-- beginning of col 1 -->
-            <div id="goal" class="my-card card see">
+            <div id="goal" class="my-card card card-dark">
                 <div class="card-body text-white">
-                    <p>YOUR GOAL IS:</p>
+                    <p>GOAL:</p>
                     <span id="total">0</span>
                 </div>
             </div>
 
             <!-- beginning of col 2 -->
-            <div id='wins-and-losses' class="my-card card seeb">
+            <div id='wins-and-losses' class="my-card card card-blue">
                 <div class="card-body">
                     <!-- <span id="winsLosses"> -->
                     <p>Win:
@@ -77,9 +77,9 @@
             </div>
 
             <!-- beginning of col 3 -->
-            <div class="my-card card see">
+            <div class="my-card card card-dark">
                 <div class="card-body text-white " id="lineAbove">
-                    <p>YOUR TOTAL SCORE IS: </p>
+                    <p>SCORE: </p>
                     <span id="current">0</span>
                 </div>
             </div>
@@ -134,36 +134,23 @@
 
             </div>
         </div>
-
-        <!-- row for numbers of pictures values -->
-        <!-- <div class="row">
-                <div class="col-sm-1"> </div>
-                <div class="valClass col-sm-2"> <p><span id="val1">0</span></p></div>
-                <div class="valClass col-sm-2"> <p><span id="val2">0</span></p></div>
-                <div class="valClass col-sm-2"> <p><span id="val3">0</span></p></div>
-                <div class="valClass col-sm-2"> <p><span id="val4">0</span></p></div>
-                <div class="valClass col-sm-2"> <p><span id="val5">0</span></p></div>
-                <div class="col-sm-1"> </div>
-        </div> -->
-        <!-- row for button only -->
+        
+        <!-- row for button -->
         <div class="row">
             <div class="col-sm-4"></div>
-            <button class="col-sm-4" id="button1">Toggle Mode</button>
+            <button class="col-sm-4" id="button1">EASY   MODE</button>
             <div class="col-sm-4"></div>
         </div>
     </div>
     <!-- row for footer with appearing coins -->
     <div class="row">
-        <div id="footer" class="see">
+        <div id="footer" class="card-dark">
             <p>CatCoins </p>
-            <!-- <img class="catCoin" id="coin1" src="assets/images/catcoins.jpg" alt="Here's a Cat Coin !!"> -->
         </div>
     </div>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <!-- link to jQuery library -->
-    <script src="assets/javascript/app.js"></script>
-    <!-- Connected USER javascript file -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script><!-- link to jQuery library -->
+    <script src="assets/javascript/app.js"></script> <!-- Connected USER javascript file -->
 </body>
 
 </html>
