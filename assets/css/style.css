@@ -123,9 +123,6 @@ img:hover{
     font-style: oblique;
 }
 
-
-
-
 @media screen and (max-width: 1000px) {
 
     html {
@@ -138,16 +135,18 @@ img:hover{
     
     .card-dark {
         border-radius: 0;
+        width: 33%;
      }
     
     .card-blue {
         border-radius: 0;
+        width: 33%;
     }
 
     .my-card {
         height: 15rem;
+        padding: 0;
         margin: 0;
-        width: 33.3%;
     }
 
     .relative {
@@ -168,6 +167,10 @@ img:hover{
     #gem5, #val5 {
         width: 50%;        
         padding: 2rem 0;
+    }
+
+    #instructions {
+        width: 100%;
     }
 }
 
@@ -222,5 +225,9 @@ img:hover{
 
     #current, #total{
         font-size: 5rem;
+    }
+
+    #wins-and-losses {
+        font-size:3rem;
     }
 }
