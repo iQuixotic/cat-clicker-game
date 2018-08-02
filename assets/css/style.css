@@ -117,9 +117,9 @@ img:hover{
 }
 
 #wins-and-losses {
-    padding: 0px;
-    margin: 0px;
-    font-size: 3.8rem;
+    padding: 1.5rem 0 0 0;
+    margin: 0;
+    font-size: 4rem;
     font-style: oblique;
 }
 
