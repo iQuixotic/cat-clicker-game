@@ -99,6 +99,10 @@ img:hover{
     font-size: 6rem;
 }
 
+#goal-and-score {
+    font-size: 2rem;
+}
+
 #head {
     top: 0;
     left: 0;
@@ -112,12 +116,11 @@ img:hover{
 }
 
 #win {
-
     color:rgb(12, 148, 12);
 }
 
 #wins-and-losses {
-    padding: 1.5rem 0 0 0;
+    padding: 2rem 0 0 0;
     margin: 0;
     font-size: 4rem;
     font-style: oblique;
