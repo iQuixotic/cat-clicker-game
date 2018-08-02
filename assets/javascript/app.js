@@ -1,56 +1,52 @@
 
-$(document).ready(function () {
+$(document).ready(() => {
     
     // starting values initialized and set to 0
-    var wins = 0;
-    var losses = 0;
-    var holding = 0;
+    let wins = 0;
+    let losses = 0;
+    let holding = 0;
 
     // value will be passed when regenerate() is called
-    var valSurprise, valMelon, valCouch, valtp, valWater, varTotal;
-
-    // variables generate random numbers for cat gems on page load 
-    // first target value is displayed on screen
-    regenerate();
+    let valSurprise, valMelon, valCouch, valtp, valWater, varTotal;
     $("#total").html(varTotal);
 
     // onclick function for adding value to holding variables
-    $("#gem1").on("click", function () {    
+    $("#gem1").on("click", () => {    
         holding = holding + valSurprise;    
         $("#current").html(holding);
         checkStatus();
     });                                     // holding variable 1
-    $("#gem2").on("click", function () {    
+    $("#gem2").on("click", () => {    
 
         holding = holding + valMelon;
         $("#current").html(holding);
         checkStatus();
     });                                     //holding variable 2
-    $("#gem3").on("click", function () {   
+    $("#gem3").on("click", () => {   
 
         holding = holding + valCouch;
         $("#current").html(holding);
         checkStatus();
     });                                      //holding variable 3
-    $("#gem4").on("click", function () {    
+    $("#gem4").on("click", () => {    
 
         holding = holding + valtp;
         $("#current").html(holding);
         checkStatus();
     });                                     // holding variable 4
-    $("#gem5").on("click", function () {    
+    $("#gem5").on("click", () => {    
         holding = holding + valWater;
         $("#current").html(holding);
         checkStatus();
     });                                    // holding variable 5
 
     // toggles the visibility of the number choices
-    $("#button1").click(function(){
-        $(".valClass").toggle();
+    $("#button1").click(() => {
+        $(".value-visibility").toggle();
     });
     /* ---------------------------------- FUNCTIONS ------------------------------------------- */
     // for generating random numbers
-    function regenerate() {
+    regenerate = () => {
         varTotal = Math.floor(Math.random() * 150 + 200);
         valSurprise = Math.floor(Math.random() * 20 + 1);
         valMelon = Math.floor(Math.random() * 20 + 3);
@@ -66,22 +62,23 @@ $(document).ready(function () {
            $("#val4").html(valtp);
            $("#val5").html(valWater);
     } 
+    regenerate();
 
     // for reseting the game
-    function resetGame() {
+    resetGame = () => {
         holding = 0;
         $("#current").html(holding);
         regenerate();
     }
 
     // for checking for wins and losses
-    function checkStatus() {
+    checkStatus = () => {
         if (holding == varTotal) {
             wins++;
             resetGame();
             addCoins();
         }
-        if (holding > varTotal) {
+        else if (holding > varTotal) {
             losses++;
             resetGame();
         }
@@ -92,9 +89,9 @@ $(document).ready(function () {
     }
 
     // for adding a cat coin to your inventory (footer)
-    function addCoins() {
+    addCoins = () =>  {
         var newCoin = $('<img src="assets/images/catcoins.jpg">').appendTo('#footer');
-        $(newCoin).addClass('catCoin');
+        $(newCoin).addClass('cat-coin');
     }
 });
 

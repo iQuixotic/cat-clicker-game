@@ -6,16 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Cat Coins</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="CSS/reset.css" />
-    <!-- Connected reset file -->
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" /> <!-- Connected reset file -->
     <!--------------------------------------------------------------------------------------------------------------------- -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
-    <!-- Bootstrap 4 CDN !YOU NEED THIS ONE! -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js" />
-    <!-- Bootstrap 4 CDN with Javascript bundle -->
-
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
-    <!-- Connected USER css file -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />  <!-- Bootstrap 4 CDN !YOU NEED THIS ONE! -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js" /> <!-- Bootstrap 4 CDN with Javascript bundle -->
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" /> <!-- user style sheet -->
 
 </head>
 
@@ -25,6 +20,7 @@
 
     <!-- container class with 5 rows -->
     <div class="conainer">
+
         <!-- row for the header -->
         <div class="row justify-content-center">
             <div id="head">
@@ -87,10 +83,9 @@
 
         <!-- row for picture -->
         <div class="row img-row ">
-            <!-- <div class="col-lg-1"></div> -->
             <div class="relative" id="gem1">
-                <img class="catPic" src="assets/images/catGem1.jpg" alt="Here's a Kitty">
-                <div class="valClass">
+                <img class="cat-pic" src="assets/images/catGem1.jpg" alt="Here's a Kitty">
+                <div class="value-visibility">
                     <p>
                         <span id="val1">0</span>
                     </p>
@@ -98,8 +93,8 @@
 
             </div>
             <div class=" relative" id="gem2">
-                <img class="catPic" src="assets/images/catGem2.jpg" alt="Here's a Kitty">
-                <div class="valClass">
+                <img class="cat-pic" src="assets/images/catGem2.jpg" alt="Here's a Kitty">
+                <div class="value-visibility">
                     <p>
                         <span id="val2">0</span>
                     </p>
@@ -107,8 +102,8 @@
 
             </div>
             <div class="relative" id="gem3">
-                <img class="catPic" src="assets/images/catGem3.jpg" alt="Here's a Kitty">
-                <div class="valClass">
+                <img class="cat-pic" src="assets/images/catGem3.jpg" alt="Here's a Kitty">
+                <div class="value-visibility">
                     <p>
                         <span id="val3">0</span>
                     </p>
@@ -116,8 +111,8 @@
 
             </div>
             <div class="relative" id="gem4">
-                <img class="catPic" src="assets/images/catGem4.jpg" alt="Here's a Kitty">
-                <div class="valClass">
+                <img class="cat-pic" src="assets/images/catGem4.jpg" alt="Here's a Kitty">
+                <div class="value-visibility">
                     <p>
                         <span id="val4">0</span>
                     </p>
@@ -125,8 +120,8 @@
 
             </div>
             <div class="relative" id="gem5">
-                <img class="catPic" src="assets/images/CatGem5.jpg" alt="Here's a Kitty">
-                <div class="valClass">
+                <img class="cat-pic" src="assets/images/CatGem5.jpg" alt="Here's a Kitty">
+                <div class="value-visibility">
                     <p>
                         <span id="val5">0</span>
                     </p>
@@ -137,9 +132,11 @@
         
         <!-- row for button -->
         <div class="row">
-            <div class="col-sm-4"></div>
-            <button class="col-sm-4" id="button1">EASY   MODE</button>
-            <div class="col-sm-4"></div>
+            <div class="col-md-4"></div>
+            <div class="container">
+                <button class="col-md-4" id="button1">TOGGLE  DIFFICULTY</button>
+            </div>            
+            <div class="col-md-4"></div>
         </div>
     </div>
     <!-- row for footer with appearing coins -->
