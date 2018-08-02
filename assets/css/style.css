@@ -13,7 +13,7 @@ button {
     width: 100%;
     height: 50px;
     font-weight: 600;
-    font-size: 3rem;
+    font-size: 2.4rem;
     margin-bottom: 100px;
 }
 button:hover {
@@ -22,8 +22,8 @@ button:hover {
 }
 
 img {
-    width: 20rem;
-    height: 20rem;
+    width: 16rem;
+    height: 16rem;
     border: rgb(12, 32, 122, .3) 6px solid;
 }
 
@@ -41,34 +41,34 @@ img:hover{
 .card-blue {
     color: rgb(0, 0, 0, 1.0);
     background-color: rgb(12, 32, 122, .5);
-    font-size: 2.5rem;
+    font-size: 2rem;
     padding: 2rem;
     margin: 4rem 0;
     border-radius: 7px;
 }
 
 .cat-coin {
-    width: 5rem;
-    height: 5rem;
+    width: 4rem;
+    height: 4rem;
     border-radius: 50%;
 }
 
 .goal-and-score {
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 
 .img-row {
-    padding: 5rem 6rem;
+    padding: 4rem 4.8rem;
 }
 
 .my-card {
-    height: 22rem;
+    height: 18rem;
     width: 22%;
     margin: 0 8%;
 }
 
 .relative {
-    margin:5rem 0;
+    margin:4rem 0;
     width: 20%;
     position: relative;
 }
@@ -76,7 +76,7 @@ img:hover{
 .value-visibility {      
     color: rgb(241, 40, 157);
     font-weight: bold;
-    font-size: 6rem;
+    font-size: 4.8rem;
     position: absolute;
     top: 25%;
     right: 37%;
@@ -91,19 +91,19 @@ img:hover{
     bottom: 0;
     width: 100%;
     text-align: justify;
-    font-size: 1.5rem;
+    font-size: .8rem;
     color: white;
 }
 
 #current, #total{
-    font-size: 8rem;
+    font-size: 6rem;
 }
 
 #head {
     top: 0;
     left: 0;
     width: 100%;
-    font-size: 4rem;
+    font-size: 3.2rem;
     text-align: center;
 }
 
@@ -119,14 +119,14 @@ img:hover{
 #wins-and-losses {
     padding: 0px;
     margin: 0px;
-    font-size: 5rem;
+    font-size: 3.8rem;
     font-style: oblique;
 }
 
 
 
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1000px) {
 
     html {
         font-size: 8px;
@@ -145,7 +145,7 @@ img:hover{
     }
 
     .my-card {
-        height: 19rem;
+        height: 15rem;
         margin: 0;
         width: 33.3333%;
     }
@@ -156,7 +156,7 @@ img:hover{
 
     .value-visibility {
           font-weight: 500;
-          font-size: 8rem;
+          font-size: 7rem;
           top: 30%;
           right: 45%;
       }
@@ -171,31 +171,7 @@ img:hover{
     }
 }
 
-@media screen and (max-width: 800px) {
-
-    img {
-        width: 20rem;
-        height: 20rem;
-    }
-
-    .value-visibility {
-        right: 43%;
-    }
-
-    #button1 {
-        width: 90%;
-    }
-
-    #total, #current {
-        font-size: 7rem;
-    }
-}
-
-@media screen and (max-width: 550px) {
-
-    html {
-        font-size: 7px;
-    }
+@media screen and (max-width: 767px) {
 
     img {
         width: 16rem;
@@ -211,7 +187,40 @@ img:hover{
     }
 
     .value-visibility {
-        font-size: 5rem;
+        right: 43%;
+    }
+
+    #button1 {
+        width: 90%;
+    }
+
+    /* #instructions {
+        margin: 2rem 0 2rem 2rem;
+        width: 100%;
+    } */
+
+    #total, #current {
+        font-size: 5.6rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+
+    html {
+        font-size: 7px;
+    }
+
+    img {
+        width: 12.8rem;
+        height: 12.8rem;
+    }
+
+    .value-visibility {
+        font-size: 4rem;
         right: 40%;
+    }
+
+    #current, #total{
+        font-size: 5rem;
     }
 }
