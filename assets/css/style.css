@@ -34,13 +34,15 @@ img:hover{
 
 .card-dark {
     color: rgb(0, 0, 0, 1.0);
-    background-color: rgb(0, 0, 0, .5);
+    /* background-color: rgb(0, 0, 0, .5); */
+    background-color: rgb(0, 48, 2);
     border-radius: 7px;
  }
 
 .card-blue {
     color: rgb(0, 0, 0, 1.0);
-    background-color: rgb(12, 32, 122, .5);
+    /* background-color: rgb(12, 32, 122, .5); */
+    background-color: rgb(255, 214, 102);
     font-size: 2rem;
     padding: 2rem;
     margin: 4rem 0;
@@ -147,7 +149,7 @@ img:hover{
     }
 
     .my-card {       
-        height: 15rem;
+        height: 150px;
         padding: 0;
         margin: 0;
     }
@@ -199,11 +201,6 @@ img:hover{
     #button1 {
         width: 90%;
     }
-
-    /* #instructions {
-        margin: 2rem 0 2rem 2rem;
-        width: 100%;
-    } */
 
     #total, #current {
         font-size: 5.6rem;
