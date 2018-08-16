@@ -17,6 +17,8 @@ button {
     font-weight: 600;
     font-size: 2.4rem;
     margin-bottom: 135px;
+    border-color: transparent;
+    border-radius: 7px;
 }
 
 button:hover {
@@ -30,6 +32,7 @@ img {
     width: 16rem;
     height: 16rem;
     border: rgb(99, 184, 199) 5px solid;
+    border-radius: 5px;
     /* border: rgb(12, 32, 122, .3) 6px solid; */
 }
 
@@ -143,6 +146,11 @@ img:hover{
 
 #loss {
     color: rgb(245, 47, 47);
+}
+
+#instructions {
+
+        text-align: justify;
 }
 
 #win {

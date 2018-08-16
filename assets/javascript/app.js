@@ -48,8 +48,8 @@ $(document).ready(() => {
     // for generating random numbers
     regenerate = () => {
         varTotal = Math.floor(Math.random() * 120 + 250);
-        valSurprise = ((Math.floor(Math.random() * 5 + 1) * 2) + 1);
-        valMelon = (Math.floor(Math.random() * 5 + 4) * 2);
+        valSurprise = ((Math.floor(Math.random() * 4) * 2) + 1);
+        valMelon = (Math.floor(Math.random() * 5 + 2) * 2);
         valCouch = ((Math.floor(Math.random() * 5 + 5) * 2) + 1);
         valtp = Math.floor(Math.random() * 7 + 15);
         valWater = Math.floor(Math.random() * 10 + 23);
