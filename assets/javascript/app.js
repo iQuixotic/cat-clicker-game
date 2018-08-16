@@ -47,11 +47,11 @@ $(document).ready(() => {
     /* ---------------------------------- FUNCTIONS ------------------------------------------- */
     // for generating random numbers
     regenerate = () => {
-        varTotal = Math.floor(Math.random() * 150 + 200);
-        valSurprise = Math.floor(Math.random() * 20 + 1);
-        valMelon = Math.floor(Math.random() * 20 + 3);
-        valCouch = Math.floor(Math.random() * 20 + 6);
-        valtp = Math.floor(Math.random() * 20 + 7);
+        varTotal = Math.floor(Math.random() * 150 + 250);
+        valSurprise = Math.floor(Math.random() * 10 + 1);
+        valMelon = Math.floor(Math.random() * 10 * 2 + 1);
+        valCouch = Math.floor(Math.random() * 10 + 6);
+        valtp = Math.floor(Math.random() * 20 * 2 + 1);
         valWater = Math.floor(Math.random() * 20 + 10);
         $("#total").html(varTotal);
         
@@ -90,7 +90,7 @@ $(document).ready(() => {
 
     // for adding a cat coin to your inventory (footer)
     addCoins = () =>  {
-        var newCoin = $('<img src="assets/images/catcoins.jpg">').appendTo('#footer');
+        const newCoin = $('<img src="assets/images/catcoins.jpg">').appendTo('#footer p');
         $(newCoin).addClass('cat-coin');
     }
 });

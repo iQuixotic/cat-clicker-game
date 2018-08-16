@@ -29,11 +29,16 @@ button:hover {
 img {
     width: 16rem;
     height: 16rem;
-    border: rgb(99, 184, 199)5px solid;
+    border: rgb(99, 184, 199) 5px solid;
     /* border: rgb(12, 32, 122, .3) 6px solid; */
 }
 
+.card-border {
+    box-shadow: 1px 1px 4px 0px black;
+}
+
 img:hover{
+    cursor: pointer;
     opacity: .8;
     border: rgb(1, 70, 4) 5px solid;
     /* border: rgb(255, 0, 149, .3) 6px solid; */
@@ -62,6 +67,17 @@ img:hover{
     border-radius: 50%;
 }
 
+.cat-coin img {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    border: rgb(99, 184, 199) 1px solid;
+}
+
+.cat-coin img:hover {
+    border: rgb(99, 184, 199) 1px solid;
+}
+
  .goal-and-score {
     font-size: 2rem;
 } 
@@ -83,6 +99,7 @@ img:hover{
 }
 
 .value-visibility {      
+    cursor: pointer;
     /* color: rgb(99, 184, 199); */
     color: rgb(255, 0, 200);
     /* color: rgb(1, 70, 4); */
