@@ -47,12 +47,12 @@ $(document).ready(() => {
     /* ---------------------------------- FUNCTIONS ------------------------------------------- */
     // for generating random numbers
     regenerate = () => {
-        varTotal = Math.floor(Math.random() * 150 + 250);
-        valSurprise = Math.floor(Math.random() * 10 + 1);
-        valMelon = Math.floor(Math.random() * 10 * 2 + 1);
-        valCouch = Math.floor(Math.random() * 10 + 6);
-        valtp = Math.floor(Math.random() * 20 * 2 + 1);
-        valWater = Math.floor(Math.random() * 20 + 10);
+        varTotal = Math.floor(Math.random() * 120 + 250);
+        valSurprise = ((Math.floor(Math.random() * 5 + 1) * 2) + 1);
+        valMelon = (Math.floor(Math.random() * 5 + 4) * 2);
+        valCouch = ((Math.floor(Math.random() * 5 + 5) * 2) + 1);
+        valtp = Math.floor(Math.random() * 7 + 15);
+        valWater = Math.floor(Math.random() * 10 + 23);
         $("#total").html(varTotal);
         
            // assigns number for toggle on easy mode
